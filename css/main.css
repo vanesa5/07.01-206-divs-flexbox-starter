@@ -97,7 +97,7 @@ textarea {
 
 
 html {
-  background-color: #fff;
+  background: url(../img/bkgd1.jpg);
   height: 100%;
 }
 
@@ -120,15 +120,21 @@ body {
   color: #fff;
   line-height: 1.5em;
   font-size: 1.6em;
-  background-color: #f16059;
+  background-color: gray;
   height: 300px;
   width: 30%;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 
-
+.div-1, .div-2, .div-3, p {
+    font-size: 1em;
+    padding: 5px;
+}
+.div-1, .div-2 {
+    border: solid white 2px;
+}
 
 
 /* ==========================================================================
